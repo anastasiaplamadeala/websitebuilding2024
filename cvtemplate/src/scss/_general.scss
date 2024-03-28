@@ -2,8 +2,8 @@
 # General
 --------------------------------------------------------------*/
 body {
-	background-color: $background-color_1;
-	color: $color_1;
+	background-color: $color_4;
+	color: $color_2;
 }
 h1 {
 	color: $color_2;
@@ -93,7 +93,7 @@ a {
 	.post-date {
 		color: $color_1;
 		display: inline-block;
-		float: right;
+		//float: right;
 	}
 }
 .work-box {
@@ -262,6 +262,7 @@ a {
 .title-left {
 	font-size: 2rem;
 	position: relative;
+	
 	&:before {
 		content: "";
 		position: absolute;
@@ -269,6 +270,7 @@ a {
 		background-color: $background-color_2;
 		width: 100px;
 		bottom: -12px;
+		color: $color_3;
 	}
 }
 /*------/ Box /------*/

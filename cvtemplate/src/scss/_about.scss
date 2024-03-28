@@ -24,16 +24,16 @@
   }
   .skill-mf {
     span {
-      color: black;
+      color: rgb(242, 236, 236);
     }
     .progress {
-      background-color: $progressbar-title-color;
+      background-color: $color_4;
       margin: 0.5rem 0 1.2rem 0;
       border-radius: 0;
       height: 0.7rem;
       .progress-bar {
         height: 0.7rem;
-        background-color: $background-color_2;
+        background-color: $color_4;
       }
     }
   }
@@ -60,7 +60,7 @@
       margin-bottom: 10px;
   
       .progressbar-title {
-        color: black;
+        color: rgb(241, 241, 241);
   
         h3 {
           display: block;
