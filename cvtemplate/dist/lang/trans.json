@@ -1,1 +1,12 @@
-{"meniu.home":"Home","meniu.about":"About","meniu.work":"Work","meniu.portfolio":"Portfolio","meniu.blog":"Blog","meniu.contact":"Contact"}
+{
+  "meniu.home": "Home",
+  "meniu.about": "About",
+  "meniu.work": "Work",
+  "meniu.portfolio": "Portfolio",
+  "meniu.blog": "Blog",
+  "meniu.contact": "Contact",
+  "helloword": "Hello, world!",
+  "iamanastasia": "I am Anastasia",
+  "typed": "This is my CV",
+  "moreme": "More About Me "
+}

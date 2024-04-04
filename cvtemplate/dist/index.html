@@ -5,7 +5,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>WebSite Building Bootstrap + Webpack</title>
-<link rel="icon" href="favicon.ico?20341430531b34600987"><link href="css/main.css?20341430531b34600987" rel="stylesheet"></head>
+<link rel="icon" href="favicon.ico?02d0b892786e52ad1274"><link href="css/main.css?02d0b892786e52ad1274" rel="stylesheet"></head>
 
 <body>
     <!-- ======= Header ======= -->
@@ -14,7 +14,7 @@
 
         <!-- <h1 class="logo"><a href="index.html">DevFolio</a></h1> -->
         <!-- Uncomment below if you prefer to use an image logo -->
-        <a href="index.html" class="logo"><img src="images/logo.png" alt="" class="img-fluid"></a>
+        <a href="index.html" class="logo"><img src="images/despremine.jpg" alt="" class="img-fluid"></a>
 
         <nav id="navbar" class="navbar">
             <ul>
@@ -43,23 +43,35 @@
                 </li> -->
                 <li><a class="nav-link scrollto" href="#contact" data-tr="meniu.contact">Contact</a></li>
             </ul>
-            <i class="bi bi-list mobile-nav-toggle"></i>
+            
+            <ul>
+                <li>
+                    <a data-id="en" href="index.html" onclick="window.changeLanguage('en')">
+                    <img style="max-height: 15px;" src="images/engleza.png" alt="English">
+                    </a>
+                </li>
+                <li>
+                    <a data-id="en" href="index.html" onclick="window.changeLanguage('ro')">
+                    <img style="max-height: 15px;" src="images/romana.png" alt="Romana">
+                    </a>
+
+            </ul>
         </nav><!-- .navbar -->
+        
 
     </div>
 </header><!-- End Header -->
         <!-- ======= Hero Section ======= -->
-<div id="hero" class="hero route bg-image" style="background-image: url(images/banner.png)">
+<div id="hero" class="hero route bg-image" style="background-image: url(images/fondal.jpg)">
     <div class="overlay-itro"></div>
     <div id="particles-js"></div>
 
     <div class="hero-content display-table">
         <div class="table-cell">
             <div class="container">
-                <p class="display-6 color-d">Hello, world!</p>
-                <h1 class="hero-title mb-4">I am Anastasia</h1>
-                <p class="hero-subtitle"><span class="typed"
-                        data-typed-items="This is my CV and I want to work in your company"></span></p>
+                <p class="display-6 color-d" data-tr="helloword">Hello, world!</p>
+                <h1 class="hero-title mb-4" data-tr="iamanastasia">I am Anastasia</h1>
+                <p class="hero-subtitle"><span class="typed" id="typed" data-tr="typed" data-typed-items="This is my CV"></span></p>
                 <ul class="list-inline list-social">
                     <li>
                         <a href="#" class="social-icon social-icon-facebook" target="_blank">
@@ -94,7 +106,7 @@
 
                 </ul>
                 <p class="pt-3 intro-content ">
-                    <a class="button stroke smoothscroll" href="#about" title="">More About Me <i
+                    <a class="button stroke smoothscroll" href="#about"  title="" data-tr="moreme">More About Me <i
                             class="bi bi-arrow-bar-down"></i></a>
 
                 </p>
@@ -114,7 +126,7 @@
                             <div class="row">
                                 <div class="col-sm-6 col-md-5">
                                     <div class="about-img">
-                                        <img src="images/profil.png" class="img-fluid rounded b-shadow-a" alt="">
+                                        <img src="images/pozamea.jpg" class="img-fluid rounded b-shadow-a" alt="">
                                     </div>
                                 </div>
                                 <div class="col-sm-6 col-md-7">
@@ -133,23 +145,16 @@
                                     </h5>
                                 </div>
                                 <p class="lead">
-                                    Curabitur non nulla sit amet nisl tempus convallis quis ac lectus. Curabitur arcu
-                                    erat, accumsan id
-                                    imperdiet et, porttitor
-                                    at sem. Praesent sapien massa, convallis a pellentesque nec, egestas non nisi. Nulla
-                                    porttitor accumsan tincidunt.
+                                    Ma numesc Anastasia, studiez la scoala LINKACADEMY,
+                                    pe profilul JavaScript Developer!
+            
                                 </p>
                                 <p class="lead">
-                                    Mauris blandit aliquet elit, eget tincidunt nibh pulvinar a. Vivamus suscipit tortor
-                                    eget felis
-                                    porttitor volutpat. Vestibulum
-                                    ac diam sit amet quam vehicula elementum sed sit amet dui. porttitor at sem.
+                                    Am cunostinte in HTML,CSS, SASS, Jquery.
                                 </p>
                                 <p class="lead">
-                                    Nulla porttitor accumsan tincidunt. Quisque velit nisi, pretium ut lacinia in,
-                                    elementum id enim.
-                                    Nulla porttitor accumsan
-                                    tincidunt. Mauris blandit aliquet elit, eget tincidunt nibh pulvinar a.
+                                    Sunt o persoana comunicativa, responsabila, inteligenta si cu spirit de echipa.
+                                    As vfrea sa fac parte din compania dumneavoastra!
                                 </p>
                             </div>
 
@@ -168,7 +173,7 @@
                                             <h3>HTML5</h3>
                                             <span class="percent" id="html-pourcent"></span>
                                         </div>
-                                        <div id="html" class="bar-container" data-percent="75%">
+                                        <div id="html" class="bar-container" data-percent="30%">
                                             <span class="progressbar progressred"></span>
                                         </div>
                                     </li>
@@ -177,7 +182,7 @@
                                             <h3>CSS/ SASS</h3>
                                             <span class="percent" id="css-pourcent"></span>
                                         </div>
-                                        <div id="css" class="bar-container" data-percent="95%">
+                                        <div id="css" class="bar-container" data-percent="25%">
                                             <span class="progressbar progressblue"></span>
                                         </div>
                                     </li>
@@ -187,7 +192,7 @@
                                             <h3>JavaScript /jQuery</h3>
                                             <span class="percent" id="javascript-pourcent"></span>
                                         </div>
-                                        <div id="javascript" class="bar-container" data-percent="100%">
+                                        <div id="javascript" class="bar-container" data-percent="15%">
                                             <span class="progressbar progresspurple"></span>
                                         </div>
                                     </li>
@@ -197,7 +202,7 @@
                                             <h3>PHP</h3>
                                             <span class="percent" id="php-pourcent"></span>
                                         </div>
-                                        <div id="php" class="bar-container" data-percent="90%">
+                                        <div id="php" class="bar-container" data-percent="3%">
                                             <span class="progressbar progressorange"></span>
                                         </div>
                                     </li>
@@ -207,28 +212,20 @@
                                             <h3>AngularJS</h3>
                                             <span class="percent" id="angular-pourcent"></span>
                                         </div>
-                                        <div id="angular" class="bar-container" data-percent="60%">
+                                        <div id="angular" class="bar-container" data-percent="0%">
                                             <span class="progressbar progressangular"></span>
                                         </div>
                                     </li>
                                     <li>
                                         <div class="progressbar-title">
-                                            <h3>React</h3>
+                                            <h3>JQuery</h3>
                                             <span class="percent" id="react-pourcent"></span>
                                         </div>
-                                        <div id="css" class="bar-container" data-percent="85%">
+                                        <div id="css" class="bar-container" data-percent="50%">
                                             <span class="progressbar progressreact"></span>
                                         </div>
                                     </li>
-                                    <li>
-                                        <div class="progressbar-title">
-                                            <h3>Vue</h3>
-                                            <span class="percent" id="vue-pourcent"></span>
-                                        </div>
-                                        <div id="css" class="bar-container" data-percent="65%">
-                                            <span class="progressbar progressvue"></span>
-                                        </div>
-                                    </li>
+                                  
                                 </ul>
 
 
@@ -250,7 +247,7 @@
                 <div class="box-shadow-full">
                     <div class="row resume-timeline">
 
-                        <div class="col-twelve resume-header">
+                        <div id="workexperince" class="col-twelve resume-header">
 
                             <h2>Work Experience</h2>
 
@@ -610,7 +607,25 @@
         </div>
     </div>
 </section><!-- End Portfolio Section -->
-                
+                <!-- ======= GitHubAPI Section ======= -->
+<section id="repo" class="services-mf pt-5 pb-2 route grey-section">
+    <div class="container">
+        <div class="row">
+            <div class="col-sm-12">
+                <div class="title-box text-center">
+                    <h3 class="title-a">
+                        My GitHub Repo
+                    </h3>
+                    <p class="subtitle-a">
+                        The latest GitHub Repo
+                    </p>
+                    <div class="line-mf"></div>
+                </div>
+            </div>
+        </div>
+        <div id="dataview" class="row"></div>
+    </div>
+</section><!-- End GitHubAPI Section -->
                 <!-- ======= Contact Section ======= -->
 <section id="contact" class="paralax-mf footer-paralax bg-image sect-mt4 route"
     style="background-image: url(images/overlay-bg.jpg)">
@@ -765,6 +780,6 @@
 <a href="#" class="back-to-top d-flex align-items-center justify-content-center"><i
         class="bi bi-arrow-up-short"></i></a>
 
-<script defer src="js/main.bundle.js?20341430531b34600987"></script></body>
+<script defer src="js/main.bundle.js?02d0b892786e52ad1274"></script></body>
 
 </html>

@@ -2,7 +2,7 @@
 # Services - GitHub API
 --------------------------------------------------------------*/
 .service-box {
-    background-color: $background-color_1;
+    background-color: $background-color_2;
     padding: 2.5rem 1.3rem;
     border-radius: 1rem;
     margin-bottom: 3rem;
@@ -12,12 +12,12 @@
         transition: all 500ms ease;
         color: $color_1;
         background-color: $background-color_2;
-        box-shadow: 0 0 0 10px #cde1f8;
+        box-shadow: 0 0 0 10px #5eedeb;
       }
     }
     .service-ico {
       margin-bottom: 1rem;
-      color: $color_2;
+      color: $color_1;
     }
     .ico-circle {
       transition: all 500ms ease;

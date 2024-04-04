@@ -12,8 +12,7 @@ import './js/particles.js'
 // Import https://github.com/mattboldt/typed.js/
 // import Typed from 'typed.js';
 import '../node_modules/typed.js/dist/typed.umd.js'
-
+import "./js/translate.js";
 import './js/main.js';
 import './js/skill.js';
 import "./js/githubapi.js";
-import "./js/translate.js";
